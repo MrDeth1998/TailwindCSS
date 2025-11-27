@@ -33,10 +33,10 @@
       }
     </style>
   </head>
-  <body>
-    <div class="bg-gray-50">
+  <body class="bg-gray-800 text-gray-300 min-h-screen flex flex-col">
+    <div class="max-w-6xl mx-auto">
       <!-- Navbar -->
-      <nav>
+      <nav class="text-gray-300">
         <div class="flex justify-between items-center px-5 py-4">
           <h1 class="text-2xl font-bold text-red-500">tailwindcss</h1>
           <ul class="flex gap-6">
@@ -48,16 +48,54 @@
       </nav>
 
       <!-- Hero section -->
-       <section class="h-[500px] flex justify-center items-center hero-bg" style="background-image: url('https://t4.ftcdn.net/jpg/17/96/54/19/240_F_1796541955_nuhEtkGfB8CfvkooEUoUo7LcG3eCnoUN.jpg');">
+       <section class="h-[500px] flex justify-center items-center hero-bg rounded-lg" style="background-image: url('https://t4.ftcdn.net/jpg/17/96/54/19/240_F_1796541955_nuhEtkGfB8CfvkooEUoUo7LcG3eCnoUN.jpg');">
         <div class=" text-center">
-          <h2 class="text-4xl font-bold text-red-500">យើងបង្កើតដំណោះស្រាយឌីជីថលទំនើបសម្រាប់អាជីវកម្មរបស់អ្នក</h2>
-          <p class="mt-4 text-red-500">ក្រុមហ៊ុនរបស់យើងផ្តល់ជូននូវសេវាកម្មបច្ចេកវិទ្យាគុណភាពខ្ពស់ ដើម្បីជួយអាជីវកម្មរបស់អ្នកអភិវឌ្ឍទៅមុខក្នុងសម័យឌីជីថល។</p>
+          <h2 class="text-4xl font-bold text-red-500 px-10">យើងបង្កើតដំណោះស្រាយឌីជីថលទំនើបសម្រាប់អាជីវកម្មរបស់អ្នក</h2>
+          <p class="mt-4 text-white">ក្រុមហ៊ុនរបស់យើងផ្តល់ជូននូវសេវាកម្មបច្ចេកវិទ្យាគុណភាពខ្ពស់ ដើម្បីជួយអាជីវកម្មរបស់អ្នកអភិវឌ្ឍទៅមុខក្នុងសម័យឌីជីថល។</p>
 
-          <button class="bg-red-500 px-4 py-3 rounded-lg mt-6">Lear More</button>
+          <button class="bg-red-500 px-4 py-3 rounded-lg mt-6 text-white">Lear More</button>
         </div>
        </section>
 
        
     </div>  
   </body>
+  <footer class="py-10 mx-auto w-full mt-10 bg-gray-800 text-gray-300">
+  <div class="max-w-6xl mx-auto px-4">
+    
+    <!-- Top Menu -->
+    <div class="flex flex-wrap justify-center gap-10 text-sm mb-8">
+      <a href="#" class="hover:text-white transition">About</a>
+      <a href="#" class="hover:text-white transition">Blog</a>
+      <a href="#" class="hover:text-white transition">Jobs</a>
+      <a href="#" class="hover:text-white transition">Press</a>
+      <a href="#" class="hover:text-white transition">Accessibility</a>
+      <a href="#" class="hover:text-white transition">Partners</a>
+    </div>
+
+    <!-- Social Icons -->
+    <div class="flex justify-center space-x-8 text-xl mb-8">
+      <a href="#" class="hover:text-white transition">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="#" class="hover:text-white transition">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="#" class="hover:text-white transition">
+        <i class="fab fa-x-twitter"></i>
+      </a>
+      <a href="#" class="hover:text-white transition">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="#" class="hover:text-white transition">
+        <i class="fab fa-youtube"></i>
+      </a>
+    </div>
+
+    <!-- Copyright -->
+    <p class="text-center text-sm text-gray-400">
+      © 2025 <a href="https://samounnarakchet.site/">https://samounnarakchet.site/</a>, Inc. All rights reserved.
+    </p>
+  </div>
+</footer>
 </html>
